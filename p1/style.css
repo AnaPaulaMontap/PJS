@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.header, .navbar, .footer{
+    width: 100vw;
+    height: 20vh;
+    margin: 0.5%
+}
+.header{
+    border: 1px solid grey;
+    background-color: lightgray;
+}
+
+.navbar{
+    border: 1px solid blue;
+    background-color: lightblue;
+}
+
+.aside, .asideRight{
+    display: inline-block;
+    width: 8vw;
+    height: 80vh;
+    border: 1px solid green;
+    background-color: lightgreen;
+}
+
+.aside{
+    margin-left: 1%;
+}
+
+.section{
+    display: inline-block;
+    width: 80vw;
+    height: 80vh;
+    border: 1px solid red;
+    background-color: lightcoral;
+    margin: 1% auto;
+}
+
+.footer{
+    border: 1px solid orange;
+    background-color: lightsalmon;
+}
+
+.boxinside, .box{
+    float: left;
+    width: 15vmax;
+    height: 15vmax;
+    border: 1px solid purple;
+    background-color:   lightpink;
+    margin: auto 5%;
+}
+
+.top, .bottom{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+
+    .aside, .asideRight{
+        display: block;
+        width: 100vw;
+        height: 30vh;
+        margin: 0.5%;
+
+    }
+    .section{
+        display: block;
+        width: 100vw;
+        margin: 0.5%;
+    }
+
+    .boxinside, .box{      
+        width: 16vmax;
+        height: 16vmax;
+        margin: 5%;
+    }
+    
+    .top, .bottom{
+        width: 100vw;
+        height: 50vh;
+    }
+}
